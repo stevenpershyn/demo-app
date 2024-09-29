@@ -20,4 +20,9 @@ public class MyController {
 	public String loginUser() {
 		return "Hello Buddy!";
 	}
+
+	@RequestMapping("api/delete")
+	public String deleteUser() {
+		return "User has been deleted";
+	}
 }
