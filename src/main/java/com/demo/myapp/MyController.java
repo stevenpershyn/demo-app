@@ -25,4 +25,9 @@ public class MyController {
 	public String deleteUser() {
 		return "User has been deleted";
 	}
+
+	@RequestMapping("api/delete/users")
+	public String deleteUsers() {
+		return "Users has been deleted";
+	}
 }
