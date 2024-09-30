@@ -30,4 +30,9 @@ public class MyController {
 	public String deleteUsers() {
 		return "Users has been deleted";
 	}
+	
+	@RequestMapping("api/create/users")
+	public String createUsers() {
+		return "Users have been created";
+	}
 }
